@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+.charger-cable{
+    position:absolute;
+    z-index: -3;
+    width:450px;
+    height:8px;
+    margin:320px 0;
+    border:1px solid rgb(196, 196, 196);
+    background-color:rgb(235, 235, 235);
+}
+.charger-preconnect{
+    position:absolute;
+    z-index: -2;
+    width:30px;
+    height:12px;
+    margin:318px 395px;
+    border:1px solid rgb(153, 153, 153);
+    background-color:rgb(206, 206, 206);
+
+}
+.charger-connect-in{
+    position:absolute;
+    z-index: -1;
+    width:30px;
+    height:20px;
+    margin:314px 410px;
+    border:1px solid rgb(196, 196, 196);
+    background-color:rgb(235, 235, 235);
+
+}
+.cameras{
+    margin:235px 0 0 1455px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.touchscreen{
+    height:39px; 
+    border-radius: 100%;
+    border:1px solid rgb(255, 255, 255);
+    background-color: black;
+    width: 39px;
+    position: absolute;
+    margin:305px 0px 0 435px;
+}
+.camera-1{
+    height:16px;
+    width:16px;
+    border:1px solid rgb(97, 97, 97);
+    border-radius:100%;
+    background-color:black;
+    margin:15px auto;
+}
+.camera-2{
+    height:16px;
+    width:16px;
+    border:1px solid rgb(97, 97, 97);
+    border-radius:100%;
+    background-color:black;
+    margin:15px auto;
+}
+.camera-3{
+    height:20px;
+    width:20px;
+    border:1px solid rgb(97, 97, 97);
+    border-radius:100%;
+    background-color:black;
+    margin:15px auto;
+}
+.camera-4{
+    height:16px;
+    width:16px;
+    border:1px solid rgb(97, 97, 97);
+    border-radius:100%;
+    background-color:black;
+    margin:15px auto;
+}
+.camera-5{
+    height:16px;
+    width:16px;
+    border:1px solid rgb(97, 97, 97);
+    border-radius:100%;
+    background-color:black;
+    margin:15px auto;
+}
+footer{
+    margin-top:-50px;
+    color:grey;
+    display: block !important;
+    justify-content: center !important;
+    align-items: center;
+    font-size:25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+p>a{
+    color:#e83144
+}
+.logoImg{
+    height:50px;
+
+}
+.container{
+    border-radius: 40px;
+    border:40px solid black;
+    width:1050px;
+    height:650px;
+    margin: 100px auto;
+    background-image:url("img-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#time{
+    font-size:70px;
+    margin:30px auto;
+    color:white;
+}
+.screen{
+    width:980px;
+    height:580px;
+
+    float:left;
+    padding: 5px;
+}
+
+
+.content{
+    width:100%;
+    height:570px;
+    padding: 20px;
+}
+
+.main-screen>i,.wifi-batery>i,#battery-container>i{
+    font-size:25px;
+    color:white;
+    margin:0 10px;
+}
+.wifi-batery{
+    display:flex;
+    width:fit-content;
+    margin:20px auto;
+}
+.section1{
+    text-align: center;
+    float: left;
+    width:540px;
+    height:250px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 5px;
+    margin: 5px;
+}
+.section2{
+   float: left;
+    width:350px;
+    height:250px;
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.tile1{
+    width:100px;
+    height: 100px;
+    background-color: rgba(255,255,255,0.6);
+    margin: 10px;
+    color:#e83144;
+    display:inline-block;
+    border-radius: 10px;
+    transition:ease 0.5s;
+    
+}
+.tile1>i{
+    font-size:50px;
+margin-top:25px;
+}
+
+.tile1:hover{
+    transform:scale(0.95);
+    cursor:pointer;
+    transition:ease 0.5s;
+    color:black;
+    background-color: white;
+}
+
+
+
+.br_right{
+    width:10px;
+    height:580px;
+    background-color: black;
+    float:left;
+}
+
+
+
+.br_bottom{
+    width:100%;
+    height:10px;
+    background-color: black;
+    border-radius: 0 0 5px 5px;
+    clear:both;
+}
+
+
+
+
+
